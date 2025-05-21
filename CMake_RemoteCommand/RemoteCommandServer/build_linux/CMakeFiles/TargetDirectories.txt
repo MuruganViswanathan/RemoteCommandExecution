@@ -1,0 +1,3 @@
+/home/murugan/Work/git/RemoteCommandExecution/CMake_RemoteCommand/RemoteCommandServer/build_linux/CMakeFiles/RemoteServer.dir
+/home/murugan/Work/git/RemoteCommandExecution/CMake_RemoteCommand/RemoteCommandServer/build_linux/CMakeFiles/edit_cache.dir
+/home/murugan/Work/git/RemoteCommandExecution/CMake_RemoteCommand/RemoteCommandServer/build_linux/CMakeFiles/rebuild_cache.dir
