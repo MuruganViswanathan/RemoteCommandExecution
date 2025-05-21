@@ -82,7 +82,7 @@ std::string UShell::ExecuteCommandFromRemote(const std::string& input)
     }
     else
     {
-        file.log("[REMOTECOMMAND] UShell::ExecuteCommandFromRemote() Processing advancd command: " + input + "not supported in Test");
+        file.log("[REMOTECOMMAND] UShell::ExecuteCommandFromRemote() Processing advancd command: '" + input + "' not supported in Test");
     }
 
     return result;

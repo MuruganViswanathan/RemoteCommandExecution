@@ -42,15 +42,16 @@ public:
     // Constructor to open the log file
     FileLogger()
     {
-        // Open the log file in append mode
 #ifdef WIN32
-        logFile.open("D:\\AppDataA20FDA\\Log\\RemoteCommandLog.txt", std::ios::app);
+        std::string path = "D:\\AppDataA20FDA\\Log\\RemoteCommandLog.txt";
 #endif
 
-#ifdef __linux__ 
-        logFile.open("/mrcs/d/AppDataA20FDA/Log/RemoteCommandLog.txt", std::ios::app);
+#ifdef __linux__
+        std::string path = "/mrcs/d/AppDataA20FDA/Log/RemoteCommandLog.txt";
 #endif
 
+        // Open the log file in append mode
+        logFile.open(path, std::ios::app);
         if (!logFile.is_open())
         {
             std::cerr << "[REMOTECOMMAND] Failed to open log file!!" << std::endl;
@@ -78,6 +79,10 @@ public:
             logFile.close();
         }
     }
+
+    FileLogger(const FileLogger&) = delete;
+    FileLogger& operator=(const FileLogger&) = delete;
+
 
 private:
     std::ofstream logFile;
