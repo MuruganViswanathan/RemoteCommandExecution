@@ -1,0 +1,10 @@
+^E:\WORK\PROJ_REMOTECOMMAND\CMAKE_REMOTECOMMAND\REMOTECOMMANDSERVER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Work/Proj_RemoteCommand/CMake_RemoteCommand/RemoteCommandServer -BE:/Work/Proj_RemoteCommand/CMake_RemoteCommand/RemoteCommandServer/build_windows --check-stamp-file E:/Work/Proj_RemoteCommand/CMake_RemoteCommand/RemoteCommandServer/build_windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

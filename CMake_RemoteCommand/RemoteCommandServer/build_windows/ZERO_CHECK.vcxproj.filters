@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Work\Proj_RemoteCommand\CMake_RemoteCommand\RemoteCommandServer\build_windows\CMakeFiles\1f90154c9cb7e2be1c78389dcd741a98\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{209B505B-37E0-303C-A81C-110159EEC4B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

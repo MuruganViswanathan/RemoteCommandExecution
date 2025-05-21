@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Work\Proj_RemoteCommand\CMake_RemoteCommand\RemoteCommandServer\RemoteServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Work\Proj_RemoteCommand\CMake_RemoteCommand\RemoteCommandServer\RemoteServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Work\Proj_RemoteCommand\CMake_RemoteCommand\RemoteCommandServer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C1C77F23-2839-3D77-91A2-A7A4C7460F0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DCD2CEBA-08C8-370F-976C-53616A2FE25E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
